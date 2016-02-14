@@ -1,0 +1,171 @@
+
+
+nav {
+	font-family: arial, sans-serif;
+	font-size: 13px;
+	text-align: right;
+	margin-bottom: 200px;
+	margin-top:20px;
+}
+
+nav li{
+	display:inline-block;
+	margin:0 10px;
+	vertical-align:top;
+}
+
+.nav li:last-child {
+  margin-right: 0;
+}
+
+li a {
+	color: #aaa;
+	text-decoration: none;
+}
+
+
+li a:hover {
+	font-family: arial, sans-serif;
+	font-size: 13px;
+	color: #aaa;
+	text-decoration: underline;
+}
+
+nav img{
+	width:30px;
+	height:30px;
+	margin-top:-8px;
+}
+
+.img-circle {
+	width:34px;
+	height:34px;
+	border-top-right-radius: 50%;
+	border-top-left-radius: 50%;
+	border-bottom-right-radius: 50%;
+	border-bottom-left-radius: 50%;
+
+}
+
+
+
+.main-image img {
+	width: 272px;
+	height: 92px;
+	display:block;
+	margin: auto;
+}
+
+form {
+	margin:30px auto;
+	font-family: arial, sans-serif;
+	
+}
+
+input {
+	padding: 10px;
+}
+
+.search-bar{
+	display:block;
+	font-size: 13px;
+	width: 443px;
+	border: 1px solid gray;
+	margin: auto;
+}
+.search-submit-btn{
+	display: inline-block;
+	font-size: 13px;
+	background-color: #f8f8f8;
+	line-height: 27px;
+	color: #222;
+	border: none;
+	cursor: pointer;
+}
+
+input[type="submit"]:hover{
+	background: #e8e8e8;
+	color: black;
+}
+
+.search-google{
+	margin-right: 15px;
+}
+
+.search-buttons{
+		text-align:center;
+		padding-top:20px;
+		
+}
+
+
+
+/*reference...
+.navbar {
+	height:70px;
+	border-bottom: 1px solid  black;
+}
+.logo-container {
+	float: left;
+	line-height: 70px;
+	padding-left: 10px;
+}
+.logo-container img{
+	width:40px;
+	height:50px;
+	vertical-align: middle;
+}
+
+.logo-container h2{
+	font-size: 24px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.nav-elements-container{
+	float: right;
+}
+
+.nav-elements-container .button{
+	font-size: 24px;
+	text-align: center;
+	width: 195px;
+	line-height: 70px;
+	display: inline-block;
+	height:70px;
+}
+.cta-button{
+	font-weight: bold;
+	color: white;
+	background-color: #2b78e4;
+}
+
+.search-container{
+margin:30px auto;
+width: 620px;
+}
+.search-container input{
+	padding: 2px;
+}
+.search-container .search-bar{
+	font-size: 24px;
+	line-height: 34px;
+	width: 446px;
+	border: 1px solid gray;
+	padding-left: 12px;
+}
+.search-submit{}
+.search-container .search-submit{
+	line-height: 34px;
+	font-size:24px;
+	border: 1px solid gray;
+	width: 136px;
+	margin-left: 16px;
+}
+
+
+a {
+	color: #085394;
+	text-decoration: none;
+}
+
